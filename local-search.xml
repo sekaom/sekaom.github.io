@@ -4,13 +4,19 @@
   
   
   <entry>
-    <title>ArchLinux安装指南</title>
-    <link href="/2023/02/03/ArchLinux%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/"/>
-    <url>/2023/02/03/ArchLinux%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/</url>
+    <title>联想TB-X504F 9008刷机指南</title>
+    <link href="/2023/02/04/%E8%81%94%E6%83%B3TB-X504F-9008%E5%88%B7%E6%9C%BA%E6%8C%87%E5%8D%97/"/>
+    <url>/2023/02/04/%E8%81%94%E6%83%B3TB-X504F-9008%E5%88%B7%E6%9C%BA%E6%8C%87%E5%8D%97/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h1 id="Lenovo-TB-X504F-9008刷机指南"><a href="#Lenovo-TB-X504F-9008刷机指南" class="headerlink" title="Lenovo TB-X504F 9008刷机指南"></a>Lenovo TB-X504F 9008刷机指南</h1><div class="note note-warning">            <p>1.刷机包文件仅适用于Lenovo TB-X504F,不适用于其他机型<br>2.教程仅分享个人经验，刷机有风险，操作需谨慎！<br>3.所有文件均来自互联网，此处仅为转载</p>          </div><h2 id="Step-1-准备好需要的文件"><a href="#Step-1-准备好需要的文件" class="headerlink" title="Step 1 准备好需要的文件"></a>Step 1 准备好需要的文件</h2><p>Driver.exe : 9008驱动<br>Qualcomm_Flash_Image_Loader_v1.0.0.2.zip : 刷机工具<br>Lenovo_Tab_4_10_REL_TB-X504F_S000007_180621_ROW_QDLE.zip : 刷机包本体<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/11.png" alt="刷机文件"><br>文章末尾有下载链接</p><h2 id="Step-2-安装9008驱动"><a href="#Step-2-安装9008驱动" class="headerlink" title="Step 2 安装9008驱动"></a>Step 2 安装9008驱动</h2><p>双击Driver.exe文件，应该会出现这个界面，选择默认的第一个(WWAN-DHCP)再点Next就行<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/12.png"><br>之后的操作也很简单,一直默认Next就行了<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/13.png"><br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/14.png"><br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/15.png"><br>到了最后一步点Install等待安装完成就行了<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/16.png"><br>安装完后可能会有重启的提示，但可有可无</p><h2 id="Step-3-准备好刷机的工具"><a href="#Step-3-准备好刷机的工具" class="headerlink" title="Step 3 准备好刷机的工具"></a>Step 3 准备好刷机的工具</h2><p>解压Qualcomm_Flash_巴拉巴拉的那个文件<br>解压完后双击打开文件夹，再双击打开里面的QFIL.exe<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/111.png" alt="QFIL"><br>应该会看到这样一个界面<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/112.png"><br>什么都不要乱动，跟着教程来就行了</p><h2 id="Step-4-进入9008刷机模式"><a href="#Step-4-进入9008刷机模式" class="headerlink" title="Step 4 进入9008刷机模式"></a>Step 4 进入9008刷机模式</h2><p>平板关机状况下按住电源键和音量+-键，同时将数据线与电脑连接<br>如果屏幕闪了一下，电脑出现提示音，平板前置摄像头附近的红灯在闪就进入了刷机模式<br>这个时候电脑打开设备管理器，就可以看到9008端口啦<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/118.png" alt="9008端口"></p><div class="note note-info">            <p>有一定几率进入9008模式后又退出9008,重新操作进入9008这一步就可以了</p>          </div><h2 id="Step-5-选择文件并开始刷机"><a href="#Step-5-选择文件并开始刷机" class="headerlink" title="Step 5 选择文件并开始刷机"></a>Step 5 选择文件并开始刷机</h2><p>解压刷机包本体并输入解压密码等待解压完成<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/19.png"></p><div class="note note-warning">            <p>解压密码: password</p>          </div><p><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/110.png"><br>QFIL软件中点击Browse<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/1.png"><br>文件选中刷机包中的.mbn文件<br>确定后差不多是这个样子<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/114.png"><br>接着点击右下角的Load XML<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/2.png"><br>文件选择的窗口会弹出两次，分别选择对应的文件就好了<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/115.png"><br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/116.png"><br>选好之后大概这样<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/121.png"><br>点击右下角的Download就开始刷机了<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/3.png"><br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/122.png"><br>刷机完会自动重启，直到出现这个界面就算刷机完成了<br><img src="/../picture/TB-X504F%E5%88%B7%E6%9C%BA/4.jpg"></p><h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><ol><li>Q:为什么因为乱刷包变砖刷回官方系统后会无限卡死重启？<br>A:可能是因为之前刷机包修改了设备的某些数据，但这部分在本刷机包中不存在，联想官方系统出于保护系统的目的，会无限卡死重启。这种情况恢复原因目前不详，可暂时强刷<a href="https://forum.xda-developers.com/f/thinkpad-tablet-android-development.1435/">xda论坛</a>中X304系列机型的卡刷包(毕竟配置一样)，就是相机不能用</li></ol><h2 id="文件下载"><a href="#文件下载" class="headerlink" title="文件下载"></a>文件下载</h2><p>都说了会有下载链接，不都在这吗</p><div class="note note-success">            <p>link1:<a href="https://alist.sekaom.top/">https://alist.sekaom.top</a><br>link2:<a href="https://h5.cloud.189.cn/share.html#/t/fY7JviqqIbYb">天翼云盘</a>  访问码：03lm<br>link3:<a href="https://www.123pan.com/s/81d8Vv-Szomd">123网盘</a>  </p>          </div>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>刷机</tag>
+      
+    </tags>
     
   </entry>
   
