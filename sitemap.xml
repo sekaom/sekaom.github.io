@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://blog.sekaom.top/</loc>
+  <lastmod>2023-02-04T05:46:41+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blog.sekaom.top/archives/</loc>
+  <lastmod>2023-02-04T05:46:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.sekaom.top/categories/</loc>
+  <lastmod>2023-02-04T05:46:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.sekaom.top/tags/</loc>
+  <lastmod>2023-02-04T05:46:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.sekaom.top/about/</loc>
+  <lastmod>2023-02-04T05:46:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.sekaom.top/links/</loc>
+  <lastmod>2023-02-04T05:46:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.sekaom.top/2023/02/04/%E8%81%94%E6%83%B3TB-X504F-9008%E5%88%B7%E6%9C%BA%E6%8C%87%E5%8D%97/</loc>
+  <lastmod>2023-02-04T05:46:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.sekaom.top/tags/%E5%88%B7%E6%9C%BA/</loc>
+  <lastmod>2023-02-04T05:46:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
